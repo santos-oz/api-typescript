@@ -8,6 +8,7 @@
     "start":"npx nodemon src/server.ts"
   },
   "keywords": [],
+  "type": "module",
   "author": "Matheus Santos",
   "license": "ISC",
   "dependencies": {
