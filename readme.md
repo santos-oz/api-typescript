@@ -13,4 +13,5 @@ npm  i nodemon -D
 
 
 Para rodar um script criado no packege.json usar o comando:
-"start"
+npm run SCRIPT
+ao nvés de escrever  npx nodemon src/server.ts
