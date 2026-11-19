@@ -1,17 +1,21 @@
-instalação de biblotecas /  dependencias
+comandos para iniciar inciar este projeto
 
 NPM INIT -Y
 NPM INSTALL EXPRESS DOTENV
-NPM i ts-node -D
-NPM i -D @types/express @types/dotenv
+npm i typescript tsx @types/node @types/express @types/dotenv -D
+npx tsc -- init
+
+
+aquivos criados no inicio do projeto:
+.gitignore -> contend: node_modules & .env e dist
+.env
+
+pasta criadas no inicio do projeto:
+dist
+src
 
 ------------------------------------------------
-dependencia de desenvolvimento
-npx tsc --init    //  arquivo de config do TYPESCRIPT
-npm  i nodemon -D
-
-
 
 Para rodar um script criado no packege.json usar o comando:
-npm run SCRIPT
-ao nvés de escrever  npx nodemon src/server.ts
+npm run DEV // Nome do arquivo 
+ao invés de escrever tsx watch src/server.ts

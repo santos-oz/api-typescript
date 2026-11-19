@@ -1,2 +1,5 @@
 node_modules
 .env
+
+dist/ 
+# pasta se inseri assim no gitignore
